@@ -1,0 +1,81 @@
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    text-align: right;
+    position: relative;
+    right: 0px;
+    top: -15px;
+}
+
+.conteudo {
+    position: relative;
+    margin: -113px 30px 0px 30px;
+}
+
+.rodape {
+    background-image: url('Imagens/fundo.png');
+    width: 100%;
+    position: fixed;
+    bottom: -85px;
+    left: 0px;
+    height: 328px;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+
+table {
+    font-size: 50px;
+    text-align: center;
+    /*z-index: -1;*/
+}
+
+.top {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    position: static;
+}
+
+    .top:before {
+        content: "";
+        position: absolute;
+        width: 2900px;
+        height: 328px;
+        background: url('Imagens/fundo.png') no-repeat;
+        transform: rotate(180deg);
+        left: -2108px;
+        top: -80px;
+    }
+
+.tabela th {
+    border: 2px solid black;
+    background-color: #F6E13B;
+    font-size: 40px;
+}
+
+.tabelaTitulo td {
+    border: 2px solid black;
+    background-color: #F6E13B;
+    font-size: 40px;
+}
+
+.tabela td {
+    font-size: 40px;
+    background-color: #d2d2d2;
+}
+
+.tabela {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
